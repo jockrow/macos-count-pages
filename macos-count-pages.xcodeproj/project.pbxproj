@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		791F3DF32CEBF89400CE0785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 791F3DD92CEBF89000CE0785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791F3DE02CEBF89000CE0785;
+			remoteInfo = "macos-count-pages";
+		};
+		791F3DFD2CEBF89400CE0785 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 791F3DD92CEBF89000CE0785 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 791F3DE02CEBF89000CE0785;
+			remoteInfo = "macos-count-pages";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		791F3DE12CEBF89100CE0785 /* macos-count-pages.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "macos-count-pages.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791F3DF22CEBF89400CE0785 /* macos-count-pagesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macos-count-pagesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		791F3DFC2CEBF89400CE0785 /* macos-count-pagesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "macos-count-pagesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		791F3DE32CEBF89100CE0785 /* macos-count-pages */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "macos-count-pages";
+			sourceTree = "<group>";
+		};
+		791F3DF52CEBF89400CE0785 /* macos-count-pagesTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "macos-count-pagesTests";
+			sourceTree = "<group>";
+		};
+		791F3DFF2CEBF89400CE0785 /* macos-count-pagesUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "macos-count-pagesUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		791F3DDE2CEBF89000CE0785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791F3DEF2CEBF89400CE0785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791F3DF92CEBF89400CE0785 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		791F3DD82CEBF89000CE0785 = {
+			isa = PBXGroup;
+			children = (
+				791F3DE32CEBF89100CE0785 /* macos-count-pages */,
+				791F3DF52CEBF89400CE0785 /* macos-count-pagesTests */,
+				791F3DFF2CEBF89400CE0785 /* macos-count-pagesUITests */,
+				791F3DE22CEBF89100CE0785 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		791F3DE22CEBF89100CE0785 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				791F3DE12CEBF89100CE0785 /* macos-count-pages.app */,
+				791F3DF22CEBF89400CE0785 /* macos-count-pagesTests.xctest */,
+				791F3DFC2CEBF89400CE0785 /* macos-count-pagesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		791F3DE02CEBF89000CE0785 /* macos-count-pages */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791F3E062CEBF89400CE0785 /* Build configuration list for PBXNativeTarget "macos-count-pages" */;
+			buildPhases = (
+				791F3DDD2CEBF89000CE0785 /* Sources */,
+				791F3DDE2CEBF89000CE0785 /* Frameworks */,
+				791F3DDF2CEBF89000CE0785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				791F3DE32CEBF89100CE0785 /* macos-count-pages */,
+			);
+			name = "macos-count-pages";
+			packageProductDependencies = (
+			);
+			productName = "macos-count-pages";
+			productReference = 791F3DE12CEBF89100CE0785 /* macos-count-pages.app */;
+			productType = "com.apple.product-type.application";
+		};
+		791F3DF12CEBF89400CE0785 /* macos-count-pagesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791F3E092CEBF89400CE0785 /* Build configuration list for PBXNativeTarget "macos-count-pagesTests" */;
+			buildPhases = (
+				791F3DEE2CEBF89400CE0785 /* Sources */,
+				791F3DEF2CEBF89400CE0785 /* Frameworks */,
+				791F3DF02CEBF89400CE0785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				791F3DF42CEBF89400CE0785 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				791F3DF52CEBF89400CE0785 /* macos-count-pagesTests */,
+			);
+			name = "macos-count-pagesTests";
+			packageProductDependencies = (
+			);
+			productName = "macos-count-pagesTests";
+			productReference = 791F3DF22CEBF89400CE0785 /* macos-count-pagesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		791F3DFB2CEBF89400CE0785 /* macos-count-pagesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 791F3E0C2CEBF89400CE0785 /* Build configuration list for PBXNativeTarget "macos-count-pagesUITests" */;
+			buildPhases = (
+				791F3DF82CEBF89400CE0785 /* Sources */,
+				791F3DF92CEBF89400CE0785 /* Frameworks */,
+				791F3DFA2CEBF89400CE0785 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				791F3DFE2CEBF89400CE0785 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				791F3DFF2CEBF89400CE0785 /* macos-count-pagesUITests */,
+			);
+			name = "macos-count-pagesUITests";
+			packageProductDependencies = (
+			);
+			productName = "macos-count-pagesUITests";
+			productReference = 791F3DFC2CEBF89400CE0785 /* macos-count-pagesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		791F3DD92CEBF89000CE0785 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					791F3DE02CEBF89000CE0785 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					791F3DF12CEBF89400CE0785 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 791F3DE02CEBF89000CE0785;
+					};
+					791F3DFB2CEBF89400CE0785 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 791F3DE02CEBF89000CE0785;
+					};
+				};
+			};
+			buildConfigurationList = 791F3DDC2CEBF89000CE0785 /* Build configuration list for PBXProject "macos-count-pages" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 791F3DD82CEBF89000CE0785;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 791F3DE22CEBF89100CE0785 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				791F3DE02CEBF89000CE0785 /* macos-count-pages */,
+				791F3DF12CEBF89400CE0785 /* macos-count-pagesTests */,
+				791F3DFB2CEBF89400CE0785 /* macos-count-pagesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		791F3DDF2CEBF89000CE0785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791F3DF02CEBF89400CE0785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791F3DFA2CEBF89400CE0785 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		791F3DDD2CEBF89000CE0785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791F3DEE2CEBF89400CE0785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791F3DF82CEBF89400CE0785 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		791F3DF42CEBF89400CE0785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 791F3DE02CEBF89000CE0785 /* macos-count-pages */;
+			targetProxy = 791F3DF32CEBF89400CE0785 /* PBXContainerItemProxy */;
+		};
+		791F3DFE2CEBF89400CE0785 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 791F3DE02CEBF89000CE0785 /* macos-count-pages */;
+			targetProxy = 791F3DFD2CEBF89400CE0785 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		791F3E042CEBF89400CE0785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		791F3E052CEBF89400CE0785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		791F3E072CEBF89400CE0785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macos-count-pages/macos_count_pages.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macos-count-pages/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richard.macos-count-pages";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		791F3E082CEBF89400CE0785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macos-count-pages/macos_count_pages.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"macos-count-pages/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richard.macos-count-pages";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		791F3E0A2CEBF89400CE0785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richard.macos-count-pagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macos-count-pages.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/macos-count-pages";
+			};
+			name = Debug;
+		};
+		791F3E0B2CEBF89400CE0785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richard.macos-count-pagesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/macos-count-pages.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/macos-count-pages";
+			};
+			name = Release;
+		};
+		791F3E0D2CEBF89400CE0785 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richard.macos-count-pagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "macos-count-pages";
+			};
+			name = Debug;
+		};
+		791F3E0E2CEBF89400CE0785 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.richard.macos-count-pagesUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "macos-count-pages";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		791F3DDC2CEBF89000CE0785 /* Build configuration list for PBXProject "macos-count-pages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791F3E042CEBF89400CE0785 /* Debug */,
+				791F3E052CEBF89400CE0785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		791F3E062CEBF89400CE0785 /* Build configuration list for PBXNativeTarget "macos-count-pages" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791F3E072CEBF89400CE0785 /* Debug */,
+				791F3E082CEBF89400CE0785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		791F3E092CEBF89400CE0785 /* Build configuration list for PBXNativeTarget "macos-count-pagesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791F3E0A2CEBF89400CE0785 /* Debug */,
+				791F3E0B2CEBF89400CE0785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		791F3E0C2CEBF89400CE0785 /* Build configuration list for PBXNativeTarget "macos-count-pagesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				791F3E0D2CEBF89400CE0785 /* Debug */,
+				791F3E0E2CEBF89400CE0785 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 791F3DD92CEBF89000CE0785 /* Project object */;
+}
