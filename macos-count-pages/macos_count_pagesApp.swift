@@ -12,6 +12,11 @@ struct macos_count_pagesApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .onAppear {
+                    if let window = NSApplication.shared.windows.first {
+                        window.title = "Count Pages"
+                    }
+                }
         }
     }
 }
